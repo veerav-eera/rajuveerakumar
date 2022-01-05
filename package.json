@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
-    "build":"cd nft-game-website && npm run build"
+    "build":"cd nft-game-website && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",

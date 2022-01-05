@@ -20,6 +20,9 @@
     "styled-components": "^5.3.3",
     "web-vitals": "^1.1.2"
   },
+  "engines": {
+    "node": "15.0.1"
+  },
   "scripts": {
     "start": "react-scripts start && nodemon server",
     "build": "react-scripts build",
