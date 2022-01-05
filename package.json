@@ -1,18 +1,19 @@
 {
   "name": "practice",
   "version": "1.0.0",
+  "engines": {
+    "node": "15.0.1"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
-    "build":"cd nft-game-website && npm install && npm run build"
-  },
-  "engines": {
-    "node": "15.0.1"
+    "build": "cd nft-game-website && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "serve": "^13.0.2",
     "server": "^1.0.37"
   }
 }
