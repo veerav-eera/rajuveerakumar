@@ -1,0 +1,25 @@
+<NavbarLogo>
+                <Logo></Logo>
+            </NavbarLogo>
+            <MobileIcon>
+                <SidebarIcon>
+                </SidebarIcon>
+            </MobileIcon>
+            <LinksDiv>
+                <LinksList>
+                    <linklistItems to={'about'}>
+                    About
+                    </linklistItems>
+                    <linklistItems to={'Portfilio'}>
+                    Portfolio
+                    </linklistItems>
+                    <linklistItems to={'Contact'}>
+                    Contact
+                    </linklistItems>
+                </LinksList>
+            </LinksDiv>
+            <PageButtonDiv>
+                <Pagebutton>
+                    Resume
+                </Pagebutton>
+            </PageButtonDiv>
