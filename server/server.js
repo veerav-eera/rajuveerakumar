@@ -1,7 +1,5 @@
 const express = require("express");
 
-const PORT = process.env.PORT || 3001;
-
 const app = express();
 
 // server/index.js
@@ -19,6 +17,6 @@ app.get("/api", (req, res) => {
 app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, '../nft-game-website/public', 'index.html'));
 });
-app.listen(PORT, () => {
-    console.log(`Server listening on ${PORT}`);
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
